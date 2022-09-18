@@ -9,3 +9,7 @@
 body {
   direction: rtl;
 }
+
+.footer-icon {
+  color: hsl(0, 0%, 100%);
+}

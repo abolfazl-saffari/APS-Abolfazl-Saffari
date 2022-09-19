@@ -13,3 +13,34 @@ body {
 .footer-icon {
   color: hsl(0, 0%, 100%);
 }
+
+img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.card {
+  transition: 0.5s;
+  cursor: pointer;
+  min-height: 10rem;
+  flex: 19rem 0 1;
+}
+
+.best-offer {
+  font-size: 0.75rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.star-yellow {
+  color: hsl(60, 100%, 50%);
+}
+
+.red-badge {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.grey-badge {
+  background-color: hsl(0, 0%, 50%);
+}

@@ -4,6 +4,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 body {
@@ -18,7 +20,6 @@ img {
   height: 150px;
   width: 100%;
   object-fit: cover;
-  border-radius: 0.75rem;
 }
 
 .card {
@@ -43,4 +44,10 @@ img {
 
 .grey-badge {
   background-color: hsl(0, 0%, 50%);
+}
+
+@media only screen and (min-width: 1440px) {
+  .banner {
+    height: 70vh;
+  }
 }

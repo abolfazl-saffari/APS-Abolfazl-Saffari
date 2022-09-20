@@ -46,6 +46,71 @@ img {
   background-color: hsl(0, 0%, 50%);
 }
 
+.card-action-heart i,
+.card-action-cart i {
+  height: 100%;
+  z-index: 9999;
+}
+
+.card-action-heart div,
+.card-action-cart div {
+  height: 100%;
+  z-index: 9999;
+}
+
+.card-action-heart::before {
+  content: "";
+  position: relative;
+  left: -5px;
+  width: 0.75rem;
+  height: 100%;
+  background-color: #212526;
+  border-radius: 0 100% 100% 0;
+}
+
+.card-action-heart::after {
+  content: "";
+  position: relative;
+  right: -5px;
+  width: 0.75rem;
+  height: 100%;
+  background-color: #212526;
+  border-radius: 100% 0 0 100%;
+}
+
+.card-action-cart::before {
+  content: "";
+  position: relative;
+  left: -5px;
+  width: 0.75rem;
+  height: 100%;
+  background-color: #212526;
+  border-radius: 0 100% 100% 0;
+}
+
+.card-action-cart::after {
+  content: "";
+  position: relative;
+  right: -5px;
+  width: 0.75rem;
+  height: 100%;
+  background-color: #212526;
+  border-radius: 100% 0 0 100%;
+}
+
+.card-action-heart-title,
+.card-action-cart-title {
+  display: none;
+}
+
+.card-action-heart:hover .card-action-heart-title {
+  display: block;
+}
+
+.card-action-cart:hover .card-action-cart-title {
+  display: block;
+}
+
 @media only screen and (min-width: 1440px) {
   .banner {
     height: 70vh;

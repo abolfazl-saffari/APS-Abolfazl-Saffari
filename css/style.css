@@ -1,5 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
+@font-face {
+  font-family: IRANsans;
+  src: url(/font/IRAN\ Sans\ Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: IRANsans;
+  src: url(/font/IRAN\ Sans\ Bold.ttf);
+  font-weight: bold;
+}
+
 *,
 *::before,
 *::after {
@@ -10,19 +22,21 @@
 
 body {
   direction: rtl;
+  font-family: IRANsans;
 }
 
 img {
-  height: 150px;
   width: 100%;
+  height: 150px;
   object-fit: fill;
 }
 
 .card {
-  transition: 0.5s;
-  cursor: pointer;
   min-height: 10rem;
   flex: 19rem 0 1;
+  box-shadow: rgb(167, 167, 167);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .best-offer {
@@ -31,14 +45,20 @@ img {
 }
 
 .star-yellow {
-  color: hsl(60, 100%, 50%);
+  color: rgb(214, 184, 10);
+}
+
+.start-grey {
+  color: rgb(114, 114, 114);
 }
 
 .red-badge {
-  background-color: hsl(0, 100%, 50%);
+  color: rgb(255, 255, 255);
+  background-color: rgb(179, 18, 18);
 }
 
 .grey-badge {
+  color: rgb(255, 255, 255);
   background-color: hsl(0, 0%, 50%);
 }
 
@@ -64,6 +84,10 @@ img {
   position: static;
   visibility: visible;
   opacity: 1;
+}
+
+footer {
+  background-color: #000;
 }
 
 .footer-icon {

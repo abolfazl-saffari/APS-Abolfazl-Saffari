@@ -15,7 +15,7 @@ body {
 img {
   height: 150px;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .card {

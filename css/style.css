@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+/* font external */
 
 @font-face {
   font-family: IRANsans;
@@ -12,6 +12,8 @@
   font-weight: bold;
 }
 
+/* change the default properties of browser */
+
 *,
 *::before,
 *::after {
@@ -23,6 +25,7 @@
 body {
   direction: rtl;
   font-family: IRANsans;
+  font-weight: normal;
 }
 
 img {
@@ -31,10 +34,12 @@ img {
   object-fit: fill;
 }
 
+/* card */
+
 .card {
   min-height: 10rem;
   flex: 19rem 0 1;
-  box-shadow: rgb(167, 167, 167);
+  box-shadow: rgb(167, 167, 167) 0px 2px 8px 0px;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -86,6 +91,8 @@ img {
   opacity: 1;
 }
 
+/* footer */
+
 footer {
   background-color: #000;
 }
@@ -93,6 +100,8 @@ footer {
 .footer-icon {
   color: hsl(0, 0%, 100%);
 }
+
+/* media query */
 
 @media only screen and (min-width: 1440px) {
   .banner {

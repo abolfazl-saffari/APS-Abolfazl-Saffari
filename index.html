@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Food-shop</title>
+
+    <!-- bootstrap framework -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <!-- fontawesom icons -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+
+    <!-- external css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
         <button
@@ -34,34 +41,46 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav pe-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="bi bi-house-door-fill"></i>
+              <a class="nav-link" href="#">
+                <i class="fa-sharp fa-solid fa-house"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-cart2"></i></a>
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-utensils"></i>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-person"></i></a>
+              <a class="nav-link" href="#">
+                <i class="fa-regular fa-user"></i>
+              </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="bi bi-search"></i> </a>
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
             </li>
           </ul>
         </div>
-        <button type="button" class="btn btn-outline-secondary">
-          <i class="bi bi-person-fill"></i>
+        <button
+          type="button"
+          class="btn btn-outline-secondary d-flex align-items-center gap-2"
+        >
+          <i class="fa-solid fa-user"></i>
           <span>ثبت نام / ورود</span>
         </button>
       </nav>
     </header>
+    <!-- main -->
     <main class="mb-3">
+      <!-- banner -->
       <img
         src="img/image.jpg"
         class="img-fluid banner"
         alt="Responsive image"
       />
       <section class="container">
+        <!-- cards-row-1 -->
         <div class="d-flex gap-4 flex-wrap justify-content-center my-4">
           <div class="card card-block px-4 py-1">
             <article
@@ -70,11 +89,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
                 </div>
               </div>
             </article>
@@ -95,13 +114,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -115,11 +134,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill start-grey"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star start-grey"></i>
                 </div>
               </div>
             </article>
@@ -140,13 +159,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -160,11 +179,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
                 </div>
               </div>
             </article>
@@ -185,13 +204,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -205,11 +224,11 @@
               <p class="mb-0 badge best-offer grey-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill start-grey"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star start-grey"></i>
                 </div>
               </div>
             </article>
@@ -230,13 +249,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -244,9 +263,11 @@
             </article>
           </div>
         </div>
+        <!-- second row title -->
         <article class="px-sm-5 px-md-4 px-lg-0 mb-4">
           <h4 class="d-inline border-bottom border-2 border-warning">برگرها</h4>
         </article>
+        <!-- cards-row-2 -->
         <div class="d-flex gap-4 flex-wrap justify-content-center my-4">
           <div class="card card-block px-4 py-1">
             <article
@@ -255,11 +276,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
                 </div>
               </div>
             </article>
@@ -280,13 +301,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -300,11 +321,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
                 </div>
               </div>
             </article>
@@ -325,13 +346,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -345,11 +366,11 @@
               <p class="mb-0 badge best-offer grey-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill start-grey"></i>
-                  <i class="bi bi-star-fill start-grey"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star start-grey"></i>
+                  <i class="fa-solid fa-star start-grey"></i>
                 </div>
               </div>
             </article>
@@ -370,13 +391,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -390,11 +411,11 @@
               <p class="mb-0 badge best-offer red-badge">پیشنهاد ویژه</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
-                  <i class="bi bi-star-fill star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
+                  <i class="fa-solid fa-star star-yellow"></i>
                 </div>
               </div>
             </article>
@@ -415,13 +436,13 @@
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">علاقه</p>
-                      <i class="bi bi-heart-fill"></i>
+                      <i class="fa-solid fa-heart"></i>
                     </div>
                     <div
                       class="action d-flex justify-content-center align-items-center gap-2 rounded-circle bg-dark text-warning"
                     >
                       <p class="action-title m-0">سفارش</p>
-                      <i class="bi bi-cart"></i>
+                      <i class="fa-solid fa-utensils"></i>
                     </div>
                   </div>
                 </div>
@@ -431,6 +452,7 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer class="text-white">
       <div class="container">
         <section class="row py-3 py-md-5">
@@ -455,22 +477,22 @@
             <ul class="nav list-unstyled d-flex justify-content-between">
               <li class="ms-3 h3">
                 <a class="text-muted" href="#"
-                  ><i class="bi bi-twitter footer-icon"></i
+                  ><i class="fa-brands fa-twitter footer-icon"></i
                 ></a>
               </li>
               <li class="ms-3 h3">
                 <a class="text-muted" href="#"
-                  ><i class="bi bi-instagram footer-icon"></i
+                  ><i class="fa-brands fa-instagram footer-icon"></i
                 ></a>
               </li>
               <li class="ms-3 h3">
                 <a class="text-muted" href="#"
-                  ><i class="bi bi-linkedin footer-icon"></i
+                  ><i class="fa-brands fa-linkedin footer-icon"></i
                 ></a>
               </li>
               <li class="ms-3 h3">
                 <a class="text-muted" href="#"
-                  ><i class="bi bi-telegram footer-icon"></i
+                  ><i class="fa-brands fa-telegram footer-icon"></i
                 ></a>
               </li>
             </ul>

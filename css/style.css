@@ -38,10 +38,15 @@ img {
 
 .card {
   min-height: 10rem;
-  flex: 19rem 0 1;
   box-shadow: rgb(167, 167, 167) 0px 2px 8px 0px;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.card-img {
+  width: 100%;
+  height: 260px;
+  object-fit: fill;
 }
 
 .best-offer {
@@ -106,5 +111,11 @@ footer {
 @media only screen and (min-width: 1440px) {
   .banner {
     height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .card-img {
+    height: 350px;
   }
 }
